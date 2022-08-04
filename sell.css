@@ -1,0 +1,73 @@
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+.img-responsive{
+    max-width: 100%;
+}
+.bro_image{
+    background: url(pexels-photo-326281.jpeg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+}
+
+
+.go_image{
+    color:white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: tranlate(-50%,-50%);
+}
+
+.go_image h1{
+    font-size:2.4rem;
+    text-align: center;
+}
+
+.form_code{
+    text-align: center;
+}
+
+.form_code .post_code{
+    display:block;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:2rem;
+    padding: .6rem;
+    border:none;
+    outline:none;
+}
+
+.form_code button{
+    display: inline-block;
+    width:40%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:2rem;
+    color: lightblue;
+    margin-top: 1rem;
+    padding: .6rem;
+    border:none;
+    outline:none;
+    text-emphasis-color: black;
+
+}
+
+
+.product{
+    width:80%;
+    margin-top: .3rem;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.product_item{
+    float:left;
+    width:32%;
+    margin-left: 0.5rem;
+
+}
+
